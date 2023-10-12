@@ -1,0 +1,26 @@
+.main-dashboard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .container-navbar {
+    width: 100%;
+    height: 64px;
+    background: #fff;
+    box-shadow: 0px 2px 3px 0px #dae1e7;
+  }
+  .container-dashboard {
+    width: 100%;
+    flex: 1;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+
+    // border: 1px solid black;
+  }
+  .container-estadistics-recents {
+    width: 100%;
+    height: 434px;
+    border: 1px solid black;
+  }
+}

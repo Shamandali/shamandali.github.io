@@ -1,0 +1,19 @@
+.main-panel {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  .main-slider {
+    width: 271px;
+    height: 100%;
+    padding: 35px 20px;
+    background: var(--Degradado-Vertical, linear-gradient(180deg, #5e0855 -10.55%, #b20095 30.98%, #ff6620 120.56%));
+  }
+  .main-form {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
